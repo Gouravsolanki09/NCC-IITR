@@ -10,12 +10,12 @@ function Events() {
 
     const events = [
         {
-            src: "./images/events/9thApr.jpg",
+            src: "./images/events/AAD-25-2.jpg",
             alt: "Recreational Activity At AAD",
             dataBsTarget: "#exampleModalp38"
         },
         {
-            src: "./images/events/Firing'25.jpeg",
+            src: "./images/events/Firing-25.jpeg",
             alt: "Firing Practice",
             dataBsTarget: "#exampleModalp37"
         },
@@ -264,16 +264,9 @@ function Events() {
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./images/events/9thApril.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Recreational Activity At AAD
-                            </div>
-                        </div>
-                        
-                        <div class="carousel-item ">
-                            <img src="./images/events/Firing-Practice'25.jpeg" alt="Firing Practice 2025 at BEG range" class="d-block" onclick="changeCarouselInterval()" />
-                            <div className='block'>
-                                Firing Practice 2025 at BEG Range
                             </div>
                         </div>
 
@@ -1250,7 +1243,7 @@ function Events() {
                                 <div className="container-fluid p-0">
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
-                                            <img src="./images/events/9apr.jpg" alt="events" style={{ width: '100%' }} className="imga" />
+                                            <img src="./images/events/AAD-25-3.jpg" alt="events" style={{ width: '100%' }} className="imga" />
                                         </div>
                                         <div className="col-6 modal-event">
                                             <p className="text-center event-name" style={{ paddingTop: '20px' }}>Recreational Activity At AAD</p>
