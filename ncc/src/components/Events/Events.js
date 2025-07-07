@@ -286,7 +286,7 @@ function Events() {
                         <div class="carousel-item">
                             <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
                             <div class="block">
-                                Guard Of Honour<br />Republic Day 2025
+                                Guard Of Honour on Republic Day 2025
                             </div>
                         </div>
                     </div>
