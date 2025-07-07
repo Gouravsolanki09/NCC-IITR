@@ -1265,7 +1265,7 @@ function Events() {
                                 <div className="container-fluid p-0">
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
-                                            <img src="./images/events/Firing-Competition.jpg" alt="events" style={{ width: '105%' }} className="imga" />
+                                            <img src="./images/events/firing-competition.jpg" alt="events" style={{ width: '105%' }} className="imga" />
                                         </div>
                                         <div className="col-6 modal-event">
                                             <p className="text-center event-name" style={{ paddingTop: '10px' }}>Firing Practice</p>
