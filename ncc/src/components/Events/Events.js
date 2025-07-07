@@ -9,31 +9,31 @@ function Events() {
     const carouselContainerRef = useRef(null);
 
     const events = [
-        {
-            src: "./images/events/AAD-25-2.jpg",
-            alt: "Recreational Activity At AAD",
-            dataBsTarget: "#exampleModalp38"
-        },
+        // {
+        //     src: "./images/events/AAD-25-2.jpg",
+        //     alt: "Recreational Activity At AAD",
+        //     dataBsTarget: "#exampleModalp38"
+        // },
         {
             src: "./images/events/Firing-25.jpeg",
             alt: "Firing Practice",
             dataBsTarget: "#exampleModalp37"
         },
-        {
-            src: "./images/events/eyehealthcamp2.jpg",
-            alt: "Eye and health checkup camp",
-            dataBsTarget: "#exampleModalp36"
-        },
-        {
-            src: "./images/events/guest-lec-col-anoop.jpg",
-            alt: "Guest Lecture by Col. Anoop Vyas",
-            dataBsTarget: "#exampleModalp35"
-        },
-        {
-            src: "./images/events/26jan2025.jpg",
-            alt: "Guard Of Honour on Republic Day",
-            dataBsTarget: "#exampleModalp34"
-        },
+        // {
+        //     src: "./images/events/eyehealthcamp2.jpg",
+        //     alt: "Eye and health checkup camp",
+        //     dataBsTarget: "#exampleModalp36"
+        // },
+        // {
+        //     src: "./images/events/guest-lec-col-anoop.jpg",
+        //     alt: "Guest Lecture by Col. Anoop Vyas",
+        //     dataBsTarget: "#exampleModalp35"
+        // },
+        // {
+        //     src: "./images/events/26jan2025.jpg",
+        //     alt: "Guard Of Honour on Republic Day",
+        //     dataBsTarget: "#exampleModalp34"
+        // },
         {
             src: "./images/events/catc-camp-2024.jpg",
             alt: "CATC CAMP - 29th Nov to 8th Dec",
@@ -1145,7 +1145,7 @@ function Events() {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1178,8 +1178,8 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="modal fade" id="exampleModalp35" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                </div> */}
+                {/* <div className="modal fade" id="exampleModalp35" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '1000px' }}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1213,8 +1213,8 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="modal fade" id="exampleModalp36" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                </div> */}
+                {/* <div className="modal fade" id="exampleModalp36" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '1000px' }}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1235,8 +1235,8 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                </div> */}
+                {/* <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1257,7 +1257,7 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="modal fade" id="exampleModalp37" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{maxWidth:'900px'}}>
                         <div className="modal-content">
