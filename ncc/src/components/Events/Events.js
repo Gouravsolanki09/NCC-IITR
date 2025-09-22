@@ -30,7 +30,7 @@ function Events() {
         //     dataBsTarget: "#exampleModalp35"
         // },
         {
-            src: "./images/events/26jan2025.jpg",
+            src: "./images/events/cropped-GOH_independence_day.JPG",
             alt: "Guard Of Honour on Republic Day",
             dataBsTarget: "#exampleModalp34"
         },
