@@ -1151,7 +1151,7 @@ function Events() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1184,7 +1184,7 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div> 
                 {/* <div className="modal fade" id="exampleModalp35" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '1000px' }}>
                         <div className="modal-content">
