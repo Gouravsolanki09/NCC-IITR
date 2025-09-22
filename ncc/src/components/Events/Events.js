@@ -30,7 +30,7 @@ function Events() {
         //     dataBsTarget: "#exampleModalp35"
         // },
         {
-            src: "./images/events/cropped-GOH_independence_day.JPG",
+            src: "./images/events/26jan2025.jpg",
             alt: "Guard Of Honour on Republic Day",
             dataBsTarget: "#exampleModalp34"
         },
@@ -263,6 +263,12 @@ function Events() {
 
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <img src="./images/events/cropped-GOH_independence_day.JPG" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <div className='block'>
+                                Guard of honor Independence Day 2025
+                            </div>
+                        </div>
                         <div class="carousel-item active">
                             <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
@@ -284,9 +290,9 @@ function Events() {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./images/events/independence_day_GOH_25.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
                             <div class="block">
-                                Guard Of Honour on Independence Day 2025
+                                Guard Of Honour on Republic Day 2025
                             </div>
                         </div>
                     </div>
