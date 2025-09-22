@@ -29,7 +29,7 @@ function Officers() {
           </div>
           <div className="mt-1 ncc-white ncc-bg-cadet rounded p-2 text-center">
             <div className="fw-bold">Col AK Nautiyal</div>
-            <div className="ncc-div-fs">Administrative Officer, 3 UK CTR NCC</div>
+            <div className="ncc-div-fs">Administrative Officer, 10 UK Bn NCC</div>
           </div>
         </div>
       </div>

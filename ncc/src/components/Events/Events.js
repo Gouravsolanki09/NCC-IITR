@@ -29,11 +29,11 @@ function Events() {
         //     alt: "Guest Lecture by Col. Anoop Vyas",
         //     dataBsTarget: "#exampleModalp35"
         // },
-        // {
-        //     src: "./images/events/26jan2025.jpg",
-        //     alt: "Guard Of Honour on Republic Day",
-        //     dataBsTarget: "#exampleModalp34"
-        // },
+        {
+            src: "./images/events/26jan2025.jpg",
+            alt: "Guard Of Honour on Republic Day",
+            dataBsTarget: "#exampleModalp34"
+        },
         {
             src: "./images/events/catc-camp-2024.jpg",
             alt: "CATC CAMP - 29th Nov to 8th Dec",
@@ -284,9 +284,9 @@ function Events() {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/independence_day_GOH_25.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
                             <div class="block">
-                                Guard Of Honour on Republic Day 2025
+                                Guard Of Honour on Independence Day 2025
                             </div>
                         </div>
                     </div>
