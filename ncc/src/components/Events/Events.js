@@ -264,7 +264,7 @@ function Events() {
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                            <img src="./images/events/cropped-GOH_independence_day.JPG" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/independence_day_updated.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Guard of honor Independence Day 2025
                             </div>
