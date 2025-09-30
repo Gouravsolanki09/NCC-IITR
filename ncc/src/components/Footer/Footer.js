@@ -101,7 +101,7 @@ function Footer() {
             </span>
             <div class="d-flex align-items-center pt-2">
               <p id="content" class="m-0 pb-1 address">
-                3 UK CTR NCC, IIT Roorkee Roorkee, Haridwar Uttarakhand, 247667
+                10 UK Bn NCC, IIT Roorkee Roorkee, Haridwar Uttarakhand, 247667
               </p>
             </div>
           </div>
