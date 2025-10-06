@@ -1,8 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-**DS_Store
-.DS_Store
-# Node modules
-node_modules/
-# Logs
-logs    
