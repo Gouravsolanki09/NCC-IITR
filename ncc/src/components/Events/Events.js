@@ -29,11 +29,11 @@ function Events() {
         //     alt: "Guest Lecture by Col. Anoop Vyas",
         //     dataBsTarget: "#exampleModalp35"
         // },
-        // {
-        //     src: "./images/events/26jan2025.jpg",
-        //     alt: "Guard Of Honour on Republic Day",
-        //     dataBsTarget: "#exampleModalp34"
-        // },
+        {
+            src: "./images/events/26jan2025.jpg",
+            alt: "Guard Of Honour on Republic Day",
+            dataBsTarget: "#exampleModalp34"
+        },
         {
             src: "./images/events/catc-camp-2024.jpg",
             alt: "CATC CAMP - 29th Nov to 8th Dec",
@@ -263,7 +263,13 @@ function Events() {
 
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                    <div class="carousel-item active">
+                            <img src="./images/events/independence_day_updated_com.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <div className='block'>
+                                Guard of honor Independence Day 2025
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
                             <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Recreational Activity At AAD
@@ -281,12 +287,6 @@ function Events() {
                             <img src="./images/events/guest-lec-col-anoop-rec.jpg" alt="Guest Lecture By Col Anoop Vyas " class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Guest Lecture By Col Anoop Vyas
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
-                            <div class="block">
-                                Guard Of Honour on Republic Day 2025
                             </div>
                         </div>
                     </div>
@@ -1145,7 +1145,7 @@ function Events() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div className="modal fade" id="exampleModalp34" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1178,7 +1178,7 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div> 
                 {/* <div className="modal fade" id="exampleModalp35" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '1000px' }}>
                         <div className="modal-content">
@@ -1236,28 +1236,6 @@ function Events() {
                         </div>
                     </div>
                 </div> */}
-                {/* <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
-                        <div className="modal-content">
-                            <div className="modal-body p-0">
-                                <div className="container-fluid p-0">
-                                    <div className="row d-flex modal-box m-0">
-                                        <div className="col-6 px-0 align-self-center img-container">
-                                            <img src="./images/events/AAD-25-3.jpg" alt="events" style={{ width: '100%' }} className="imga" />
-                                        </div>
-                                        <div className="col-6 modal-event">
-                                            <p className="text-center event-name" style={{ paddingTop: '20px' }}>Recreational Activity At AAD</p>
-                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
-                                                NCC IITR brought a day full of joy, inclusion, and energy to Anushruti Academy for the Deaf. Through 7 engaging games, over 90 students participated with enthusiasm and spirit. The event celebrated not just play, but confidence and connection—ending with 22 bright winners and countless smiles.</p>
-                                            <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 9th April 2025, 9:00 AM - 1:00 PM</p>
-                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue - AAD</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="modal fade" id="exampleModalp37" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{maxWidth:'900px'}}>
                         <div className="modal-content">
@@ -1280,6 +1258,28 @@ function Events() {
                         </div>
                     </div>
                 </div>
+                {/* <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
+                        <div className="modal-content">
+                            <div className="modal-body p-0">
+                                <div className="container-fluid p-0">
+                                    <div className="row d-flex modal-box m-0">
+                                        <div className="col-6 px-0 align-self-center img-container">
+                                            <img src="./images/events/AAD-25-3.jpg" alt="events" style={{ width: '100%' }} className="imga" />
+                                        </div>
+                                        <div className="col-6 modal-event">
+                                            <p className="text-center event-name" style={{ paddingTop: '20px' }}>Recreational Activity At AAD</p>
+                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
+                                                NCC IITR brought a day full of joy, inclusion, and energy to Anushruti Academy for the Deaf. Through 7 engaging games, over 90 students participated with enthusiasm and spirit. The event celebrated not just play, but confidence and connection—ending with 22 bright winners and countless smiles.</p>
+                                            <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 9th April 2025, 9:00 AM - 1:00 PM</p>
+                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue - AAD</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
                 
             </div >
         </div >
