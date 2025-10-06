@@ -264,7 +264,7 @@ function Events() {
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                            <img src="./images/events/independence_day_updated.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/independence_day_updated_com.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Guard of honor Independence Day 2025
                             </div>
@@ -289,12 +289,12 @@ function Events() {
                                 Guest Lecture By Col Anoop Vyas
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        {/* <div class="carousel-item">
                             <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
                             <div class="block">
                                 Guard Of Honour on Republic Day 2025
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#recentEventsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
