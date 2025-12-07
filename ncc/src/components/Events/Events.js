@@ -9,10 +9,15 @@ function Events() {
     const carouselContainerRef = useRef(null);
 
     const events = [
+        // {
+        //     src: "./images/events/AAD-25-2.jpg",
+        //     alt: "Recreational Activity At AAD",
+        //     dataBsTarget: "#exampleModalp38"
+        // },
         {
-            src: "./images/events/AAD-25-2.jpg",
-            alt: "Recreational Activity At AAD",
-            dataBsTarget: "#exampleModalp38"
+            src: "./images/events/guest-lec-gc.png",
+            alt: "Group Commander Lecture 16th Oct",
+            dataBsTarget: "#exampleModalp39"
         },
         {
             src: "./images/events/Firing-25.jpeg",
@@ -270,12 +275,11 @@ function Events() {
                             </div>
                         </div>
                         <div class="carousel-item ">
-                            <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/guest-lec-gc.png" alt="Group Commander Lecture 16th Oct" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Recreational Activity At AAD
+                                Guest Lecture by Group Commander on 16th oct
                             </div>
                         </div>
-
                         <div class="carousel-item ">
                             <img src=".\images\events\eyehealthcamp.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
@@ -1258,7 +1262,7 @@ function Events() {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
@@ -1273,6 +1277,29 @@ function Events() {
                                                 NCC IITR brought a day full of joy, inclusion, and energy to Anushruti Academy for the Deaf. Through 7 engaging games, over 90 students participated with enthusiasm and spirit. The event celebrated not just play, but confidence and connection—ending with 22 bright winners and countless smiles.</p>
                                             <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 9th April 2025, 9:00 AM - 1:00 PM</p>
                                             <p className="event-details" style={{ fontSize: '15px' }}>Venue - AAD</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+                <div className="modal fade" id="exampleModalp39" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
+                        <div className="modal-content">
+                            <div className="modal-body p-0">
+                                <div className="container-fluid p-0">
+                                    <div className="row d-flex modal-box m-0">
+                                        <div className="col-6 px-0 align-self-center img-container">
+                                            <img src="./images/events/guest-lec-gc.png" alt="events" style={{ width: '100%' }} className="imga" />
+                                        </div>
+                                        <div className="col-6 modal-event">
+                                            <p className="text-center event-name" style={{ paddingTop: '20px' }}>Group Commander Lecture 16th Oct</p>
+                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
+                                                An inspiring session by Brig. P. Bhandari, Group Commander, NCC Group HQ Roorkee, was held at the Chemical Auditorium. He shared valuable insights on “How NCC Transforms Youth into Leaders,” highlighting how the organisation instills discipline, confidence, and leadership in cadets.
+                                            It was a meaningful opportunity for students to learn from a distinguished leader dedicated to shaping the nation’s youth.</p>
+                                            <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 16th October 2025, 6:30 PM</p>
+                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue -Chemical Auditorium </p>
                                         </div>
                                     </div>
                                 </div>
