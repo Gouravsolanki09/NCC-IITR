@@ -1292,7 +1292,7 @@ function Events() {
                                 <div className="container-fluid p-0">
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
-                                            <img src="./images/events/independence_day_updated_com_modal.jpeg" alt="events" style={{ width: '100%' }} className="imga" />
+                                            <img src="./images/events/IndependenceDayGOH2025_modal.jpeg" alt="events" style={{ width: '100%' }} className="imga" />
                                         </div>
                                         <div className="col-6 modal-event">
                                             <p className="text-center event-name" style={{ paddingTop: '20px' }}>Guard of Honour on Independence Day</p>
