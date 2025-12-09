@@ -1158,7 +1158,7 @@ function Events() {
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
                                             <img
-                                                src="./images/events/26jan2025.jpg"
+                                                src="./images/events/26jan2025-rec.jpg"
                                                 alt="Guard Of Honour on Republic Day"
                                                 className="d-block"
                                                 style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }}
@@ -1192,7 +1192,7 @@ function Events() {
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
                                             <img
-                                                src="./images/events/guest-lec-col-anoop.jpg"
+                                                src="./images/events/guest-lec-col-anoop-rec.jpg"
                                                 alt="Guest Lecture by Col. Anoop Vyas"
                                                 className="d-block"
                                                 style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }}
@@ -1226,7 +1226,7 @@ function Events() {
                                 <div class="container-fluid p-0">
                                     <div class="row d-flex modal-box m-0">
                                         <div class="col-6 px-0 align-self-center img-container">
-                                            <img src=".\images\events\eyehealthcamp2.jpg" alt="events" class="d-block" style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }} />
+                                            <img src=".\images\events\eyehealthcamp.jpg" alt="events" class="d-block" style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }} />
                                         </div>
                                         <div class="col-6 modal-event">
                                             <p class="text-center event-name">Eye Checkup Camp</p>
