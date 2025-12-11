@@ -282,7 +282,7 @@ function Events() {
                         </div>
 
                         <div class="carousel-item ">
-                            <img src=".\images\events\GD-and-quiz.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src=".\images\events\group-discussion-quiz.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
                                 Group Discussion & Quiz competition
                             </div>
