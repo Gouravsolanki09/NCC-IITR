@@ -25,8 +25,8 @@ function Events() {
             dataBsTarget: "#exampleModalp37"
         },
         {
-            src: "./images/events/group-discussion-quiz.jpg",
-            alt: "Group Discussion & Quiz",
+            src: "./images/events/eyehealthcamp2.jpg",
+            alt: "Eye and health checkup camp",
             dataBsTarget: "#exampleModalp36"
         },
         {
