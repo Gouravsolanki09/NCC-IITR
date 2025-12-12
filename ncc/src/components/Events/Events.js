@@ -15,6 +15,11 @@ function Events() {
             dataBsTarget: "#exampleModalp39"
         },
         {
+            src: "./images/events/AAD-25-2.jpg",
+            alt: "Recreational Activity At AAD",
+            dataBsTarget: "#exampleModalp38"
+        },
+        {
             src: "./images/events/Firing-25.jpeg",
             alt: "Firing Practice",
             dataBsTarget: "#exampleModalp37"
@@ -260,6 +265,7 @@ function Events() {
                     <p class="heading">Recent Events</p>
                     <div class="line"></div>
                 </div>
+
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -1256,6 +1262,28 @@ function Events() {
                         </div>
                     </div>
                 </div>
+                <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
+                        <div className="modal-content">
+                            <div className="modal-body p-0">
+                                <div className="container-fluid p-0">
+                                    <div className="row d-flex modal-box m-0">
+                                        <div className="col-6 px-0 align-self-center img-container">
+                                            <img src="./images/events/AAD-25-3.jpg" alt="events" style={{ width: '100%' }} className="imga" />
+                                        </div>
+                                        <div className="col-6 modal-event">
+                                            <p className="text-center event-name" style={{ paddingTop: '20px' }}>Recreational Activity At AAD</p>
+                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
+                                                NCC IITR brought a day full of joy, inclusion, and energy to Anushruti Academy for the Deaf. Through 7 engaging games, over 90 students participated with enthusiasm and spirit. The event celebrated not just play, but confidence and connection—ending with 22 bright winners and countless smiles.</p>
+                                            <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 9th April 2025, 9:00 AM - 1:00 PM</p>
+                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue - AAD</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                  
                 <div className="modal fade" id="exampleModalp39" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
                         <div className="modal-content">
