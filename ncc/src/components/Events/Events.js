@@ -268,12 +268,13 @@ function Events() {
 
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./images/events/independence_day_updated_com.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
-                            <div className='block'>
-                                Guard of honor Independence Day 2025
+                       <div class="carousel-item active">
+                           <img src="./images/events/BDC.jpg" alt="Blood Donation Camp" className="d-block" />
+                           <div className="block">
+                                   Blood Donation Camp 2025
                             </div>
                         </div>
+
                         <div class="carousel-item ">
                             <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
