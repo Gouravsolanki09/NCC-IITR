@@ -268,7 +268,7 @@ function Events() {
 
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
-                       <div className="carousel-item active">
+                       <div class="carousel-item active">
                            <img src="./images/events/BDC.jpg" alt="Blood Donation Camp" className="d-block" />
                            <div className="block">
                                    Blood Donation Camp 2025
