@@ -277,7 +277,7 @@ function Events() {
                         <div class="carousel-item ">
                             <img src="./images/events/gc.jpg" alt="Group Commander Lecture 16th Oct" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Guest Lecture by Group Commander on 16th oct
+                                Guest Lecture by Group Commander 
                             </div>
                         </div>
                         <div class="carousel-item ">
