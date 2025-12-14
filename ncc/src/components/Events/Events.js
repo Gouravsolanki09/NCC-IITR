@@ -9,7 +9,11 @@ function Events() {
     const carouselContainerRef = useRef(null);
 
     const events = [
-
+ {
+            src: "./images/events/15aug-2025.png",
+            alt: "Guard of Honour on Independance Day",
+            dataBsTarget: "#exampleModalp39"
+        },
         {
             src: "./images/events/AAD-25-2.jpg",
             alt: "Recreational Activity At AAD",
