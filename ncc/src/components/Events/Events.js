@@ -9,7 +9,7 @@ function Events() {
     const carouselContainerRef = useRef(null);
 
     const events = [
-        {
+ {
             src: "./images/events/15aug-2025.png",
             alt: "Guard of Honour on Independance Day",
             dataBsTarget: "#exampleModalp39"
@@ -276,12 +276,11 @@ function Events() {
                         </div>
 
                         <div class="carousel-item ">
-                            <img src="./images/events/AAD-25-1.jpg" alt="recreational activity at AAD" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/gc.jpg" alt="Group Commander Lecture 16th Oct" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Recreational Activity At AAD
+                                Guest Lecture by Group Commander 
                             </div>
                         </div>
-
                         <div class="carousel-item ">
                             <img src=".\images\events\group-discussion-quiz.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
@@ -1265,7 +1264,7 @@ function Events() {
                     </div>
                 </div>
                 <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '900px' }}>
+                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
                                 <div className="container-fluid p-0">
@@ -1285,7 +1284,7 @@ function Events() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                  
                 <div className="modal fade" id="exampleModalp39" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '900px' }}>
                         <div className="modal-content">
