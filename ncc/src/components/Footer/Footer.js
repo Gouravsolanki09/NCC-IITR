@@ -43,10 +43,13 @@ function Footer() {
               <img src="./images/svgs/phoneIcon.svg" />
               <div className="px-2">
                 <p id="content" className="m-0 pb-1">
-                  +91 7464887593
+                  +91 9798999936
                 </p>
                 <p id="content" className="pb-1 m-0">
-                  +91 7673063605
+                  +91 6299930337
+                </p>
+                <p id="content" className="pb-1 m-0">
+                  +91 9828483211
                 </p>
               </div>
             </div>
@@ -98,7 +101,7 @@ function Footer() {
             </span>
             <div class="d-flex align-items-center pt-2">
               <p id="content" class="m-0 pb-1 address">
-                3 UK CTR NCC, IIT Roorkee Roorkee, Haridwar Uttarakhand, 247667
+                10 UK Bn NCC, IIT Roorkee Roorkee, Haridwar Uttarakhand, 247667
               </p>
             </div>
           </div>
@@ -126,10 +129,13 @@ function Footer() {
                 <img src="./images/svgs/phoneIcon.svg" />
                 <div class="px-2">
                   <p id="content" class="m-0 pb-1">
-                    +91 7464887593
+                    +91 9798999936
                   </p>
                   <p id="content" class="pb-1 m-0">
-                    +91 7673063605
+                    +91 6299930337
+                  </p>
+                  <p id="content" class="pb-1 m-0">
+                    +91 9828483211
                   </p>
                 </div>
               </div>

@@ -14,22 +14,22 @@ function Officers() {
       </div>
       {/* 1st Row */}
       <div className="row row1">
-        {/* <div className="col d-flex flex-column align-items-center justify-content-center mb-4">
+         <div className="col d-flex flex-column align-items-center justify-content-center mb-4">
           <div>
-            <img src="./images/aboutus/newcoimg.jpg" alt="Col Anoop Vyas" className="rounded" />
+            <img src="./images/aboutus/img-min.png" alt="Col S Chakraborty" className="rounded" />
           </div>
           <div className="mt-1 ncc-white ncc-bg-cadet rounded p-2 text-center">
-            <div className="fw-bold">Col Anoop Vyas</div>
-            <div className="ncc-div-fs">Commanding Officer, 3 UK CTR NCC</div>
+            <div className="fw-bold">Col S Chakraborty</div>
+            <div className="ncc-div-fs">Commanding Officer, 10 UK Bn NCC</div>
           </div>
-        </div> */}
+        </div> 
         <div className="col d-flex flex-column align-items-center justify-content-center mb-4">
           <div>
             <img src="./images/aboutus/Admin.jpg" alt="Col AK Nautiyal" className="rounded" />
           </div>
           <div className="mt-1 ncc-white ncc-bg-cadet rounded p-2 text-center">
             <div className="fw-bold">Col AK Nautiyal</div>
-            <div className="ncc-div-fs">Administrative Officer, 3 UK CTR NCC</div>
+            <div className="ncc-div-fs">Administrative Officer, 10 UK Bn NCC</div>
           </div>
         </div>
       </div>

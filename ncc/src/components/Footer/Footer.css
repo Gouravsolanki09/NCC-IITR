@@ -70,7 +70,9 @@ a#logo4:hover > img {
   overflow: hidden;
   transition: all 0.5s;
 }
-.contact_content_0,
+.contact_content_0 {
+  height: 150px !important;
+}
 .address_content_0,
 .website_content_0 {
   height: 114px !important;

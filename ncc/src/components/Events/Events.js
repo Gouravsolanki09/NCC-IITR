@@ -9,10 +9,20 @@ function Events() {
     const carouselContainerRef = useRef(null);
 
     const events = [
+ {
+            src: "./images/events/15aug-2025.png",
+            alt: "Guard of Honour on Independance Day",
+            dataBsTarget: "#exampleModalp39"
+        },
         {
-            src: "./images/events/9thApr.jpg",
+            src: "./images/events/AAD-25-2.jpg",
             alt: "Recreational Activity At AAD",
             dataBsTarget: "#exampleModalp38"
+        },
+        {
+            src: "./images/events/Firing-25.jpeg",
+            alt: "Firing Practice",
+            dataBsTarget: "#exampleModalp37"
         },
         {
             src: "./images/events/eyehealthcamp2.jpg",
@@ -245,7 +255,7 @@ function Events() {
             window.removeEventListener('resize', handleResize);
         };
 
-    }, []);
+    }, [events.length]);
 
     return (
         <div style={{ marginBottom: '2vw' }}>
@@ -258,34 +268,30 @@ function Events() {
 
                 <div id="recentEventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-touch="true">
                     <div class="carousel-inner">
-                    <div class="carousel-item">
-                            <img src=".\images\events\eyehealthcamp.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
+                       <div class="carousel-item active">
+                           <img src="./images/events/BDC.jpg" alt="Blood Donation Camp" className="d-block" />
+                           <div className="block">
+                                   Blood Donation Camp 2025
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="./images/events/gc.jpg" alt="Group Commander Lecture 16th Oct" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Free Eye and Health Checkup Camp
+                                Guest Lecture by Group Commander 
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./images/events/guest-lec-col-anoop-rec.jpg" alt="Guest Lecture By Col Anoop Vyas " class="d-block" onclick="changeCarouselInterval()" />
+                        <div class="carousel-item ">
+                            <img src=".\images\events\group-discussion-quiz.jpg" alt="free Eye and health checkup camp" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Guest Lecture By Col Anoop Vyas
+                                Group Discussion & Quiz competition
                             </div>
                         </div>
+
                         <div class="carousel-item">
-                            <img src="./images/events/26jan2025-rec.jpg" alt="26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
-                            <div class="block">
-                                Guard Of Honour<br />Republic Day 2025
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/events/26jan2025-rec2.jpg" alt="GoH 26 Jan 2025" class="d-block" onclick="changeCarouselInterval()" />
-                            <div class="block">
-                                Guard Of Honour<br /> Republic Day 2025
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/events/bdc-2024-rec.jpg" alt="BDC 2024" class="d-block" onclick="changeCarouselInterval()" />
+                            <img src="./images/events/FloodDonationDrive.jpeg" alt="Flood Donation Drive" class="d-block" onclick="changeCarouselInterval()" />
                             <div className='block'>
-                                Blood Donation Camp 2024
+                                Flood Donation Drive
                             </div>
                         </div>
                     </div>
@@ -1152,7 +1158,7 @@ function Events() {
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
                                             <img
-                                                src="./images/events/26jan2025.jpg"
+                                                src="./images/events/26jan2025-rec.jpg"
                                                 alt="Guard Of Honour on Republic Day"
                                                 className="d-block"
                                                 style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }}
@@ -1186,7 +1192,7 @@ function Events() {
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
                                             <img
-                                                src="./images/events/guest-lec-col-anoop.jpg"
+                                                src="./images/events/guest-lec-col-anoop-rec.jpg"
                                                 alt="Guest Lecture by Col. Anoop Vyas"
                                                 className="d-block"
                                                 style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }}
@@ -1220,16 +1226,14 @@ function Events() {
                                 <div class="container-fluid p-0">
                                     <div class="row d-flex modal-box m-0">
                                         <div class="col-6 px-0 align-self-center img-container">
-                                            <img src=".\images\events\eyehealthcamp2.jpg" alt="events" class="d-block" style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }} />
+                                            <img src=".\images\events\eyehealthcamp.jpg" alt="events" class="d-block" style={{ width: '100%', margin: '0px', padding: '0px', borderRadius: '0px' }} />
                                         </div>
                                         <div class="col-6 modal-event">
                                             <p class="text-center event-name">Eye Checkup Camp</p>
                                             <p class="text-center event-des" style={{ padding: '0px 15px' }}>Good vision is key to a better life, and regular eye checkups are essential for maintaining healthy eyesight. <br />
-Join NCC IIT Roorkee at Free Eye and Health Checkup Camp to ensure your well-being where experienced doctors will conduct comprehensive eye and health tests, providing expert guidance; absolutely free.
-                                                
-                                                                              </p>
-                                            <p class="event-details">Date &amp; Time - 26-02-2025, 09:00 AM</p>
-                                            <p class="event-details">Venue - Students Activity Center, IIT Roorkee</p>
+                                                Join NCC IIT Roorkee at Free Eye and Health Checkup Camp to ensure your well-being where experienced doctors will conduct comprehensive eye and health tests, providing expert guidance; absolutely free.</p>
+                                            <p class="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date &amp; Time - 26-02-2025, 09:00 AM</p>
+                                            <p class="event-details" style={{ fontSize: '15px' }}>Venue - Students Activity Center, IIT Roorkee</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1237,16 +1241,36 @@ Join NCC IIT Roorkee at Free Eye and Health Checkup Camp to ensure your well-bei
                         </div>
                     </div>
                 </div>
-
-
-                <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div className="modal-dialog modal-dialog-centered">
+                <div className="modal fade" id="exampleModalp37" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '900px' }}>
                         <div className="modal-content">
                             <div className="modal-body p-0">
                                 <div className="container-fluid p-0">
                                     <div className="row d-flex modal-box m-0">
                                         <div className="col-6 px-0 align-self-center img-container">
-                                            <img src="./images/events/9apr.jpg" alt="events" style={{ width: '100%' }} className="imga" />
+                                            <img src="./images/events/firing-competition.jpg" alt="events" style={{ width: '105%' }} className="imga" />
+                                        </div>
+                                        <div className="col-6 modal-event">
+                                            <p className="text-center event-name" style={{ paddingTop: '10px' }}>Firing Practice</p>
+                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
+                                                A total of 49 NCC IIT Roorkee cadets participated in a firing practice session at the Bengal Engineer Group (BEG), Roorkee. Each cadet completed 5 rounds of Grouping Fire and 5 rounds of Snap Shooting, improving precision, control, and target response. The session offered valuable hands-on experience in a military setting. </p>
+                                            <p className="event-details" style={{ paddingTop: '2px', fontSize: '15px' }}>Date & Time - 7th April 2025, 2:00 PM</p>
+                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue - BEG Firing Range </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="modal fade" id="exampleModalp38" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered"  style={{maxWidth:'900px'}}>
+                        <div className="modal-content">
+                            <div className="modal-body p-0">
+                                <div className="container-fluid p-0">
+                                    <div className="row d-flex modal-box m-0">
+                                        <div className="col-6 px-0 align-self-center img-container">
+                                            <img src="./images/events/AAD-25-3.jpg" alt="events" style={{ width: '100%' }} className="imga" />
                                         </div>
                                         <div className="col-6 modal-event">
                                             <p className="text-center event-name" style={{ paddingTop: '20px' }}>Recreational Activity At AAD</p>
@@ -1260,8 +1284,30 @@ Join NCC IIT Roorkee at Free Eye and Health Checkup Camp to ensure your well-bei
                             </div>
                         </div>
                     </div>
+                </div>                  
+                <div className="modal fade" id="exampleModalp39" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: '900px' }}>
+                        <div className="modal-content">
+                            <div className="modal-body p-0">
+                                <div className="container-fluid p-0">
+                                    <div className="row d-flex modal-box m-0">
+                                        <div className="col-6 px-0 align-self-center img-container">
+                                            <img src="./images/events/IndependenceDayGOH2025_modal.jpeg" alt="events" style={{ width: '100%' }} className="imga" />
+                                        </div>
+                                        <div className="col-6 modal-event">
+                                            <p className="text-center event-name" style={{ paddingTop: '20px' }}>Guard of Honour on Independence Day</p>
+                                            <p className="text-center event-des" style={{ paddingTop: '10px' }}>
+                                                As the nation prepares to celebrate its 79th Independence Day, NCC IIT Roorkee warmly invites you to join us and be a part of this historic morning as the cadets of 10 UK Bn NCC, IIT Roorkee, present the Guard of Honour and witness the National Flag hoisted with full ceremonial honours.</p>
+                                            <p className="event-details" style={{ paddingTop: '10px', fontSize: '15px' }}>Date & Time - 15th August 2025, 8:45 AM</p>
+                                            <p className="event-details" style={{ fontSize: '15px' }}>Venue - James Thomson Building</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
+
             </div >
         </div >
     )
